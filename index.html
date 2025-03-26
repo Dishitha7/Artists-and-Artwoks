@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 30px;
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .art-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 10px;
+            background-color: #222;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+
+        .art-item img {
+            width: 80%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .art-item:hover img {
+            transform: scale(1.05);
+        }
+
+        .art-item p {
+            text-align: justify;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Famous Artworks and Artists</h1>
+    </header>
+
+    <section class="gallery">
+        <div class="art-item">
+            <h2>Radha In The Moonlight</h2>
+            <img src="https://www.tallengestore.com/cdn/shop/products/Raja_Ravi_Varma_-_Radha_In_The_Moonlight_bf2223ed-5d1f-4ea5-b5f7-6408aacb2eb2.jpg?v=1496125124" alt="Artwork 1">
+            <p>"Radha in the Moonlight" by Raja Ravi Varma is his most famous artwork. The painting sold for ₹200,000,000. Having thoroughly absorbed written and performed mythological subjects, Ravi Varma recognised every nuance of Radha’s energy. Not only is she dazzling and complete in her beauty of body and spirit, she is also the symbol of unconditional love which makes Krishna yearn for her. Supreme beings love those who submit to them unreservedly. Aware of Krishna’s godly qualities Radha has the pooja thali, the platter of flowers and sweetmeats near her, the ritual of worship and adulation to be completed before the love play starts. Human and godly loves are combined in this relationship. She sits at ease on the rocks near the glimmering water and perhaps she has just espied him emerging through the trees. This particular Radha is conceivably one of the most beautiful of Ravi Varma’s uttama nayikas, the high minded women of many virtues and qualities that are intrinsic to goddesses and women in classical Indian literature. Radha radiates the soft beauty, intelligence and sensitivity of the uttama nayika, and being Radha of unparalleled beauty, Ravi Varma has painted her with extra care and refinement.</p>
+        </div>
+
+        <div class="art-item">
+            <h2>The Mona Lisa</h2>
+            <img src="https://images.squarespace-cdn.com/content/v1/63b4866d0569300db25b4d64/1673309661428-7TJ73H7FQYIUSQ3OHJU4/mona-lisa-leonardo-da-vinci.jpg" alt="Artwork 2">
+            <p>Leonardo da Vinci was a Renaissance artist, architect, inventor, and scientist who is widely considered one of the most brilliant minds in history. Born in 1452 in the town of Vinci, Italy, Leonardo was a true polymath who excelled in a wide range of fields. His most famous paintings include the Mona Lisa, The Last Supper, and the Virgin and Child with Saint Anne. In this post, we’ll explore ten of his most famous paintings.Mona Lisa is one of the most iconic paintings in the world. Painted by Leonardo da Vinci in the early 16th century, it depicts a woman with a mysterious smile and has become a symbol of the Renaissance. The painting is known for its subtle use of light and shadow, which gives the woman's face a sense of depth and volume.</p>
+        </div>
+
+        <div class="art-item">
+            <h2>Starry Night</h2>
+            <img src="https://www.invaluable.com/blog/wp-content/uploads/sites/77/2020/07/VINCENT-VAN-GOGH-STARRY-NIGHT.jpg" alt="Artwork 3">
+            <p>Van Gogh's night sky is a field of roiling energy. Below the exploding stars, the village is a place of quiet order. Connecting earth and sky is the flamelike cypress, a tree traditionally associated with graveyards and mourning. But death was not ominous for van Gogh. "Looking at the stars always makes me dream," he said, "Why, I ask myself, shouldn't the shining dots of the sky be as accessible as the black dots on the map of France? Just as we take the train to get to Tarascon or Rouen, we take death to reach a star."
+
+                The artist wrote of his experience to his brother Theo: "This morning I saw the country from my window a long time before sunrise, with nothing but the morning star, which looked very big." This morning star, or Venus, may be the large white star just left of center in The Starry Night. The hamlet, on the other hand, is invented, and the church spire evokes van Gogh's native land, the Netherlands. The painting, like its daytime companion, The Olive Trees, is rooted in imagination and memory. Leaving behind the Impressionist doctrine of truth to nature in favor of restless feeling and intense color, as in this highly charged picture, van Gogh made his work a touchstone for all subsequent Expressionist painting.</p>
+        </div>
+    </section>
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: white;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.art-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #222;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.art-item img {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.art-item:hover img {
+    transform: scale(1.05);
+}
+
+.art-item p {
+    text-align: justify;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+h2 {
+    margin-top: 0;
+    color: #ffcc00;
+}
